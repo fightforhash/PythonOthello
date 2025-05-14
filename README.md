@@ -71,13 +71,23 @@ An Othello game application featuring a modern interface and AI opponents with v
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/fightforhash/PythonOthello.git
    ```
 
 2. Install required packages:
-   ```
-   pip install mysql-connector-python tkinter
-   ```
+   
+   ```bash
+   # For Windows
+   pip install mysql-connector-python
+
+   # For macOS / Linux
+   pip3 install mysql-connector-python
+
+   # If tkinter is not available, install it via your OS package manager:
+   # For Ubuntu/Debian:
+   sudo apt-get install python3-tk
+
+   # On Windows and macOS, tkinter is included with standard Python.
 
 3. MySQL Database Setup:
    - **Important**: You must download and install MySQL Workbench to manage the SQL file locally. The game will not run without setting up the database properly.
