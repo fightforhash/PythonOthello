@@ -1,4 +1,4 @@
-# Othello Game Project
+# AI-Powered Othello Game Project
 
 <p align="center">
   <img src="othello.ico" alt="Othello Game Icon" width="120" height="120">
