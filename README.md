@@ -101,18 +101,18 @@ An Othello game application featuring a modern interface and AI opponents with v
 
 ## 👨‍💻 Developer Information
 
-NingYuan Sun 
-Thomas Ha 
-Yonghee Han
-Ethan Mckellips
-Osase-Noma Owens 
+NingYuan Sun<br>
+Thomas Ha<br>
+Yonghee Han<br>
+Ethan Mckellips<br>
+Osase-Noma Owens<br>
 -> classmates from the FA23 CS506 course in University of Wisconsin - Madison.
 
 ## 📜 License
 
 MIT License
 
-Copyright (c) 2023 NingYuan Sun, Thomas Ha, Yonghee Han, Ethan Mckellips, Osase-Nima Owens
+Copyright (c) 2023 NingYuan Sun, Thomas Ha, Yonghee Han, Ethan Mckellips, Osase-Noma Owens
 
 Permission is hereby granted, free of charge, to any person obtaining a copy  
 of this software and associated documentation files (the “Software”), to deal  
