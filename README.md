@@ -1,7 +1,7 @@
 # AI-Powered Othello Game Project
 
 <p align="center">
-  <img src="othello.ico" alt="Othello Game Icon" width="120" height="120">
+  <img src="assets/logo.svg" alt="Othello AI logo" width="520">
 </p>
 
 ## 🎮 Alpha-Beta Pruning AI

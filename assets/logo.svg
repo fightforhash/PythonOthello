@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="t">
+  <title id="t">Othello AI logo: the opening position on a green board, one disc mid-flip</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="80%">
+      <stop offset="0" stop-color="#173a26"/>
+      <stop offset="1" stop-color="#0a1c12"/>
+    </radialGradient>
+    <radialGradient id="w" cx="40%" cy="35%" r="70%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d9dde0"/></radialGradient>
+    <radialGradient id="b" cx="40%" cy="35%" r="70%"><stop offset="0" stop-color="#3a3d40"/><stop offset="1" stop-color="#0d0e0f"/></radialGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bg)"/>
+
+  <g transform="translate(400 188) scale(0.86) translate(-400 -200)">
+  <!-- 4x4 corner of the board. -->
+  <rect x="270" y="70" width="260" height="260" rx="10" fill="#1f7a43" stroke="#0f3d22" stroke-width="6"/>
+  <g stroke="#0f3d22" stroke-width="4">
+    <line x1="335" y1="70" x2="335" y2="330"/><line x1="400" y1="70" x2="400" y2="330"/><line x1="465" y1="70" x2="465" y2="330"/>
+    <line x1="270" y1="135" x2="530" y2="135"/><line x1="270" y1="200" x2="530" y2="200"/><line x1="270" y1="265" x2="530" y2="265"/>
+  </g>
+
+  <!-- Opening position. -->
+  <circle cx="367.5" cy="167.5" r="25" fill="url(#w)"/>
+  <circle cx="432.5" cy="232.5" r="25" fill="url(#w)"/>
+  <circle cx="432.5" cy="167.5" r="25" fill="url(#b)"/>
+  <!-- The flip: a disc caught edge-on between black and white. -->
+  <ellipse cx="367.5" cy="232.5" rx="11" ry="25" fill="url(#b)"/>
+  <path d="M 367.5 207.5 A 11 25 0 0 1 367.5 257.5" fill="url(#w)"/>
+  <path d="M 336 300 Q 367 316 398 300" fill="none" stroke="#ffde59" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="398,300 386,296 392,309" fill="#ffde59"/>
+
+  </g>
+
+  <text x="400" y="398" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="-1.5" fill="#ffffff">Othello AI</text>
+  <text x="400" y="440" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" fill="#a8c9b2">alpha-beta pruning, Python and Tkinter</text>
+</svg>
